@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: person
+    database: second-try-ml
+    schema: dbt_mpeyrovi_person
+    tables:
+      - name: address
+      - name: person
+      - name: countryregion
+      - name: stateprovince
