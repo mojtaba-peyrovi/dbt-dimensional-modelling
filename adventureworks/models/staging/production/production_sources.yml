@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: production
+    database: second-try-ml
+    schema: dbt_mpeyrovi_production
+    tables:
+      - name: product
+      - name: productcategory
+      - name: productsubcategory
