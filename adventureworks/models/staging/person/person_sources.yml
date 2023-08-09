@@ -6,6 +6,6 @@ sources:
     schema: dbt_mpeyrovi_person
     tables:
       - name: address
-      - name: person
       - name: countryregion
+      - name: person
       - name: stateprovince

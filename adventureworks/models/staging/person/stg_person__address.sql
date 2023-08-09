@@ -8,6 +8,6 @@ with source as (
      from {{ source('person','address') }}
 )
 
-select * from source;
+select * from source
 
 
